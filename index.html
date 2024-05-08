@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roulette</title>
+    <script src="roulettes.js" defer></script>
+    <style>
+
+        body{
+            background: dimgray;
+        }
+
+        .lootbox{
+            overflow:hidden;
+            position:relative;
+            max-width:680px;
+            min-width:300px;
+            background:black;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lootbox-container{
+            width:600px;
+            height:200px;
+            margin:0 auto;
+        }
+
+        .lootbox-wrapper{
+            width:40000px;
+            height:200px;
+            display:inline-block;
+            position: relative;
+            right:0px;
+        }
+
+        .loot-item{
+            width:200px;
+            height:80%;
+            margin-top:20px;
+            display:inline-block;
+            margin-left:20px;
+            overflow: hidden;
+            background:white;
+        }
+
+        .loot-marker{
+            width:2px;
+            height:200px;
+            background: red;
+            position: absolute;
+            top:0px;
+            margin-left:300px;
+            box-shadow: 0px 0px 20px 2px  black;
+        }
+        span{
+            width:300px;
+            height:40%;
+            text-align:center ;
+            line-height:70px;
+            color:white;
+            margin:100px;
+            display:inline-block;
+            margin-left:-50px;
+            background:blue;
+
+        }
+
+
+        .rewards{
+            display:flex;
+            flex-direction:row;
+            height:200px;
+            margin:0 auto
+        }
+
+
+        .gold {
+            background: gold;
+        }
+        .purple {
+            background: purple;
+        }
+        .green {
+            background: green;
+        }
+        .blue{
+            background: blue;
+        }
+        a{
+            color:#EEEEEE;
+            font-size:40px;
+        }
+
+        .button {
+            font-size: 20px;
+            font-family: 'Rajdhani', sans-serif;
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+            margin: 0 auto;
+            margin-top: 25px;
+            width: 100px;
+            height: 50px;
+            background: linear-gradient(#1d7751, #0e382c);
+            border: 3px #25793b solid;
+            border-radius: 5px;
+            text-shadow: 0 0 20px rgba(255,255,255,0.3);
+            transition: .1s;
+            transform: scale(1);
+            cursor: pointer;
+            -webkit-user-select: none;
+            box-shadow: 0 0 50px rgba(0,117,9,0.5);
+            overflow: hidden;
+        }
+
+        .button:hover {
+            transform: scale(1.05);
+        }
+
+        .button:after {
+            content: "";
+            position: relative;
+            top: -120px;
+            left: -90px;
+            display: block;
+            width: 35px;
+            height: 150px;
+            background: rgba(255, 255, 255, 0.5);
+            transform: rotate(35deg);
+            -webkit-filter: blur(20px);
+            transition: none;
+        }
+
+        .button:hover:after {
+            left: 400px;
+            transition: .3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+
+<div class="rewards"></div>
+
+<script
+        src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
+

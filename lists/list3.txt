@@ -1,0 +1,8 @@
+Machine Gun,
+Anti-Materiel Rifle
+Stalwart
+Expendable Anti-Tank
+Recoilless Rifle,
+Flamethrower
+Autocannon,
+Heavy Machine Gun,
