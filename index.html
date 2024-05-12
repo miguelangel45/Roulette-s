@@ -7,14 +7,17 @@
     <style>
 
         body{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
             background: dimgray;
         }
 
         .lootbox{
             overflow:hidden;
             position:relative;
-            max-width:680px;
-            min-width:300px;
+            max-width:330px;
+            min-width:100px;
             background:black;
             margin: auto;
             display: flex;
@@ -138,12 +141,23 @@
             left: 400px;
             transition: .3s ease-in-out;
         }
+        .roulettes{
+            display: flex;
+            width: 80%;
+            gap: 10px;
+            align-self: center;
+            align-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
 
 <div class="rewards"></div>
+<div class="roulettes">
 
+</div>
 <script
         src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="

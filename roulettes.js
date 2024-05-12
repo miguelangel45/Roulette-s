@@ -92,6 +92,7 @@ function render(items, id) {
 
 let renderRoulettes = (items) => {
     console.log('render roulettes');
+    let roulettes = document.getElementsByClassName('roulettes')[0]
     for (let i = 0; i < items.length; i++) {
         let lootbox = document.createElement('div');
         lootbox.className = 'lootbox';
@@ -106,7 +107,7 @@ let renderRoulettes = (items) => {
         lootboxContainer.append(lootMarker);
         lootboxContainer.append(lootboxWrappper);
         lootbox.append(lootboxContainer)
-        document.body.append(lootbox);
+        roulettes.append(lootbox);
         setTimeout(()=>spin(i),1000)
 
     }
