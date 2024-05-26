@@ -31,6 +31,6 @@ This project is designed to create a **roulette-style wheel** that you can integ
 - When you go live or activate the scene with the roulette wheel, it will randomly select items from your lists.
 - Enjoy the excitement of spinning the wheel and surprising your audience!
 
----
+Here's an example of the roulette working on obs:
+![Untitled-video](https://github.com/miguelangel45/Roulette-s/assets/22915449/de074e6f-cdac-44cf-9681-db6e1591cfb0)
 
-Feel free to customize this README further to match your project's specifics. If you have any questions or need additional assistance, don't hesitate to ask! 🎉
